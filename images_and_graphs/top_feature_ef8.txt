@@ -1,0 +1,7 @@
+Top Features (Effect Size > 0.8):
+['Ring_MC_G', 'Pinky_Tip_G', 'Ring_PIP_G',
+'Thumb_CMC_G', 'Middle_PIP_R', 'Pinky_MC_G',
+'Pinky_Tip_B', 'Ring_MC_B', 'Ring_PIP_B', 'Middle_MC_G',
+'Middle_PIP_G', 'Middle_MC_B', 'Ring_Tip_B', 'Index_Tip_G',
+'Thumb_CMC_B', 'Index_Tip_B', 'Middle_Tip_G', 'Ring_Tip_G',
+'Thumb_MP_G', 'Ring_PIP_R', 'Middle_PIP_B', 'Pinky_MC_B']

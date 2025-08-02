@@ -1,0 +1,13 @@
+﻿Model,Radius,Test Accuracy,5-Fold CV Accuracy (± std),Key Strengths/Weaknesses vs. Others
+Initial LR,1,0.85,0.73 (±0.12),"Baseline; warnings, balanced CM. Vs. RF: -7% test, linear limits."
+Initial LR,3,0.88,0.74 (±0.11),"Strong initial; good TN. Vs. RF: Lower CV, no ensemble robustness."
+Initial LR,5,0.85,0.72 (±0.10),"Stable; minor radius gain. Vs. RF: -7% test, misses non-linearity."
+Regularized LR,1,0.85,0.73 (±0.12),No warnings; interpretable coeffs (Comp 10 ~0.80). Vs. RF: -7% test; simpler but less accurate.
+Regularized LR,3,0.88,0.74 (±0.11),Best LR; 0 FN at test. Vs. RF: Equivalent test but -4% CV; RF's importances more insightful (Comp 16 ~0.09).
+Regularized LR,5,0.85,0.72 (±0.10),Even errors; scalable. Vs. RF: -7% test; RF better on TN (14/15 vs. 13/15).
+Random Forest (Current),1,0.92,0.72 (±0.10),"Vs. Reg LR: +7% test; Comp 1/10 key. Vs. NN: Less variance, better TN."
+Random Forest (Current),3,0.92,0.76 (±0.11),"Vs. Reg LR: +4% CV; importances shift to Comp 16. Vs. NN: +7% test, consistent CM."
+Random Forest (Current),5,0.92,0.83 (±0.12),"Top: +11% CV gain; Comp 16/8-9 dominant. Vs. All: Highest metrics, ideal for deployment—low errors, robust to radius."
+Neural Network,1,0.88,~0.72 (±~0.10),"Non-linear; stochastic. Vs. RF: -4% test, more variance."
+Neural Network,3,0.81,~0.70 (±~0.11),More FN. Vs. RF: -11% test; needs tuning.
+Neural Network,5,0.88,~0.76 (±~0.12),Aligns on trend. Vs. RF: -4% test; RF more consistent.
