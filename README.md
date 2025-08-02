@@ -3,7 +3,7 @@ Exploration of machine learning in healthcare.
 
 # Hand Health Prediction: Non-Invasive Color Analysis Using Machine Learning
 
-![Project Banner](images_and_graphs/hand_marked_mid.png)  
+![Project Banner](https://github.com/AKaradsheh/Hands_and_Health/blob/62b402ba2269acbd570a3b0f6f87eb7584e73673/images_and_graphs/hand_marked2.png)
 *Figure: Example hand image with midpoints marked for RGB sampling (green circles). Healthy hands show brighter tones.*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
