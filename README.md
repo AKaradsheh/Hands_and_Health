@@ -39,7 +39,7 @@ Repo Structure:
    source env/bin/activate  # On Windows: env\\Scripts\\activate
    pip install -r requirements.txt
    ```
-   *requirements.txt example:*
+   *requirements.txt:*
    ```
    mediapipe
    opencv-python
@@ -86,8 +86,6 @@ Repo Structure:
 - **Stats**: Healthy brighter (e.g., Avg_G ~160 vs. ~140); t-tests significant (p < 0.001).
 - **Balance**: ~58% unhealthy; stratified splits used.
 
-![Pairplot Example](../images_and_graphs/pairplot_radius_5.png)  
-*Figure: Pairplot of Avg RGB by Label (Radius 5)—clear separation in red-green.*
 
 ## Models and Results
 
@@ -105,8 +103,8 @@ Metrics (`model_comparison.csv` averages):
 | **Random Forest**      | **5**  | **0.92** | **0.83 (±0.12)** |
 | Neural Network         | 5      | 0.83     | 0.76 (±0.06)  |
 
-![NN CV Accuracy](../images_and_graphs/nn_cv_accuracy.png)  
-*Figure: CV Accuracy by Radius (NN example)—upward trend with radius.*
+
+
 
 Predictions vs. Actual: RF aligns well (92% correct on test; e.g., R5: 14/15 unhealthy true negatives). Errors rare, often borderlines.
 
