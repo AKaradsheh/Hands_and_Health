@@ -89,7 +89,7 @@ Repo Structure:
 
 ## Models and Results
 
-https://github.com/AKaradsheh/Hands_and_Health/blob/62b402ba2269acbd570a3b0f6f87eb7584e73673/images_and_graphs/nn_cv_accuracy.png
+[![5-Fold Accuracy By Pxil Sampling Radius (Neaural Network)]https://github.com/AKaradsheh/Hands_and_Health/blob/62b402ba2269acbd570a3b0f6f87eb7584e73673/images_and_graphs/nn_cv_accuracy.png
 
 Four models trained per radius (PCA: 20 components, ~97% variance):
 
